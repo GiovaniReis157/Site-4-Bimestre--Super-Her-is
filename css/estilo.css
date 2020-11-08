@@ -1,3 +1,60 @@
+html{
+	scroll-behavior: smooth;
+}
+
 .naoentra{
 	margin-top: 4%;
+}
+
+.gradiente{
+	background-image: linear-gradient(to right,#8B008B,#FF0000,#8B008B);
+}
+
+#sobre{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.linha{
+	margin-left: auto;
+	margin right: auto;
+	text-align: center;
+}
+
+.ano{
+	background-color: #FFF;
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+
+.tabela{
+	padding-top: 2%;
+}
+
+table, th, td {
+	border: 5px groove #FF4500;
+	text-align: center;
+	width: 100%;
+}
+
+td:hover {
+	background-color: #4B0082;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.centro{
+	text-align: center;
+}
+
+.cor{
+	text-align: center;
 }
