@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -10,11 +11,17 @@
    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
    <link rel="icon" href="img/favicon.png">
    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-
-    <title>Super-Heroes</title>
+   <title>Super-Heroes</title>
+  
+   <!--Jquery-->
+   <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+   <script type="text/javascript" src="js/lightslider.js"></script>
   </head>
+  
   <body class="gradiente">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#483D8B;">
         <a class="navbar-brand" href="#">
@@ -38,10 +45,10 @@
               Dropdown
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">1960</a>
+              <a class="dropdown-item nav-link" href="">1960</a>
               <a class="dropdown-item" href="#">1970</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Dias Atuais</a>
+              <a class="dropdown-item" href="#">O Início</a>
             </div>
           </li>
           <li class="nav-item">
@@ -77,7 +84,7 @@
                   <img src="img/carrossel3.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h4>Quadrinhos que Marcam Época</h4>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <p>Esses personagens são tão icónicos que fazem sucesso até hoje.</p>
                   </div>
                 </div>
               </div>
@@ -121,9 +128,11 @@
                 <div class="row align-items-center">
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <div class="p-4">
+                            <div id="60">
                             <h2 class="display-5">Anos 60</h2> 
                             <div class="ano"><span data-toggle="counter-up">1960</span></div> 
                             <p>A Marvel Entertainment foi fundada em 1939, nos Estados Unidos, por Martin Goodman. A primeira revista em quadrinhos da companhia foi a Marvel Comics, lançada em 31 de agosto de 1939, quando apareceu o personagem Tocha Humana e Namor. A história da empresa, no entanto, teve início em 1933, quando houveram as primeiras publicações na revista Western Supernovel Magazine. <a href="">Saiba Mais</a></p>
+                            </div>
                         </div>   
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3 d-none d-md-block">
@@ -294,20 +303,291 @@
        </div>
     </div>
 
-    
+    <section id="portifolio" class="portifolio">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="cor"><b>Portifólio</b></h2>
+                <p class="centro">Veja algumas das figuras mais icônicas que construiram o legado da Marvel</p>
+            </div>
 
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="zoom">
+                        <img src="img/StanLee.jpg" class="img-fluid" alt="">
+                        <div class="portifolio-info">
+                            <h4 class="centro">Stan Lee</h4>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-lg-4 col-md-6">
+                     <div class="textogaleria borda">
+                         <p>Stanley Martin Lieber, mais conhecido como Stan Lee, foi um escritor, editor, publicitário, produtor, diretor, empresário e ator norte-americano. Foi editor-chefe e presidente da Marvel Comics antes de deixar a empresa para se tornar presidente emérito da editora, bem como um membro do conselho editorial.</p>  
+                     </div>
+                     <div class="portifolio-info">
+                         <h4 class="centro">Biografia Resumida</h4>
+                     </div>
+                </div> 
+
+                <div class="col-lg-4 col-md-6">
+                    <div>
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/D7MpRDAe2KI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </iframe>
+                        <div class="portifolio-info">
+                            <h4 class="centro">Aparições de Stan Lee em filmes e jogos</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="zoom">
+                        <img src="img/JackKirby.jpg" class="img-fluid" alt="">
+                        <div class="portifolio-info">
+                            <h4 class="centro">Jack Kirby</h4>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-lg-4 col-md-6">
+                     <div class="textogaleria borda ">
+                         <p>Jacob Kurtzberg, mais conhecido pelo nome artístico Jack Kirby, foi um renomado desenhista, arte-finalista, roteirista e editor de histórias em quadrinhos americano de ascendência austríaca, amplamente reconhecido como um dos maiores inovadores do meio e um dos mais prolíficos e influentes criadores.</p>  
+                     </div>
+                     <div class="portifolio-info">
+                         <h4 class="centro">Biografia Resumida</h4>
+                     </div>
+                </div> 
+
+                <div class="col-lg-4 col-md-6">
+                    <div>
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/cP0eRr5BmL4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="portifolio-info">
+                            <h4 class="centro">Como Jack Kirby fez história</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="zoom">
+                        <img src="img/SteveDitko.jpg" class="img-fluid" alt="">
+                        <div class="portifolio-info">
+                            <h4 class="centro">Steve Ditko</h4>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-lg-4 col-md-6">
+                     <div class="textogaleria borda">
+                         <p>Stephen J. Ditko, conhecido por Steve Ditko (Johnstown, Pensilvânia, 2 de novembro de 1927 - 27 de junho de 2018), foi um desenhista e roteirista norte-americano que ao lado do editor e roteirista Stan Lee criou em 1962 o super-herói Homem-Aranha e a maioria dos mais famosos coadjuvantes e vilões clássicos do personagem, dentre outros se destacam o Camaleão, Dr. Octopus, Duende Verde, Electro, Abutre, Mystério e Kraven, o Caçador.</p>  
+                     </div>
+                     <div class="portifolio-info">
+                         <h4 class="centro">Biografia Resumida</h4>
+                     </div>
+                </div> 
+
+                <div class="col-lg-4 col-md-6">
+                    <div>
+                        <iframe width="100%" height="300" src="https://www.youtube.com/embed/xfajrXzHS74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="portifolio-info">
+                            <h4 class="centro">O traço de Ditko</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="table" class="table">
+        <div class="table">
+        <!--slider------------------->
+        <ul id="autoWidth" class="cs-hidden">
+        <!--1------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+                <p class="marvel">DR. HANK PYM</p>
+                <!--model-->
+                <img src="img/Ant-Man.png" class="model">
+                <!--details-->
+                <div class="details">
+                <!--logo-character-->
+                <img src="img/AntMan-logo.png" class="logo" width="100px" style="height: auto;">
+                <!--character-details-->
+                <p>Após ser zombado pela sua genialidade o Dr. Hank Pyn desenvolve uma poção que faz qualquer objeto crescer, inclusive ele mesmo, assim ele combate o crime como Homem-Formiga.</p>
+                </div>
+            </div>
+        </li>
+        <!--2------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">WADE WILSON</p>
+            <!--model-->
+                <img src="img/DeadPool.png" class="model">
+            <!--details-->
+                <div class="details">
+                <!--logo-character-->
+                <img src="img/Deadpool-logo.png" class="logo" >
+                <!--character-details-->
+                <p>O ex-mercenário Wade Wilson é vítima de experimentos malignos que o desfigura completamente mas acaba dando poderes de regeneração a ele. Agora Wade trabalha como "Super-Herói" </p>
+                </div>
+            </div>
+        </li>
+        <!--3------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">PETER PARKER</p>
+            <!--model-->
+            <img src="img/SpiderMan.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/SpiderMan-logo.png" class="logo" >
+            <!--character-details-->
+            <p>Peter Parker, um jovem garotinho de 15 anos tem sua vida completamente diferente desde que uma aranha radioativa o picou, ele ainda tem que lidar com seu poderes e responsabilidades.</p>
+            </div>
+            </div>
+        </li>
+        <!--4------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">EDDY BROCK</p>
+            <!--model-->
+            <img src="img/Venom.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/Venom-logo.png" class="logo" >
+            <!--character-details-->
+            <p>Um jornalista do Clarim Diário acaba sendo parasitado pelo simbionte Venon, uma gosma alienígena que precisa de um hospedeiro para viver.</p>
+            </div>
+            </div>
+        </li>
+        <!--5------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+            <p class="marvel">DR. DON BLAKE</p>
+            <!--model-->
+            <img src="img/Thor.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/Thor-logo.png" class="logo">
+            <!--character-details-->
+            <p>Tony Stark era </p>
+            </div>
+            </div>
+        </li>
+        <!--6------------------------------>
+        <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+                <p class="marvel">TONY STARK</p>
+                <!--model-->
+                <img src="img/IronMan.png" class="model">
+                <!--details-->
+                <div class="details">
+                <!--logo-character-->
+                <img src="img/IronMan-logo.png" class="logo" >
+                <!--character-details-->
+                <p>Tony Stark era um dos maiores fornecedor de armas para os EUA, porém durante um ataque terrorista é capturado e obrigado a construir uma arma, com a ultima tentativa ele decide construir uma armadura.</p>
+            </div>
+            </div>
+        </li>
+        </ul>
+        </div>
+    </section>
+    
+    <section id="contatar" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 class="cor"><b>Entre em contato</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="info mt-4">
+                <h4>Endereço</h4>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="info">
+                        <h4>E-mail</h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="info w-100 mt-4">
+                        <h4>Telefone</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </div>
+    </section>
+
+    <section id="contato">
+            <h2>Para me Contatar</h2>
+            <p>Contatos e Redes Socias</p>
+        <div>
+            <img src="img/whats.png">
+            <p><a href="tel:97752-7560"></a>(11)91571-5715</p>
+        </div>
+        <div>
+            <img src="img/insta.png">
+            <p><a href="https://www.instagram.com/giovani_reisgil/">@giovani_reisgil</a></p>
+        </div>
+        <div>
+            <img src="img/email.png">
+            <p><a href="">giovani187@gmail.com</a></p>
+        </div>
+        <div>
+            <img src="img/git.png">
+            <p><a href="https://github.com/GiovaniReis157/">GiovaniReis157</a></p>
+        </div>
+        </section>
+        <footer>
+            <p>Desenvolvido por Giovani dos Reis Gil ©</p>
+        </footer>   
+    </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js" ></script>
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/counterup.min.js"></script>
-    
     <script type="text/javascript" src="js/main.js"></script>
-
    
   </body>
 </html>

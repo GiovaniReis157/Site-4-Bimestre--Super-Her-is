@@ -2,6 +2,8 @@ html{
 	scroll-behavior: smooth;
 }
 
+body
+
 .naoentra{
 	margin-top: 4%;
 }
@@ -57,4 +59,97 @@ tr:nth-child(even) {
 
 .cor{
 	text-align: center;
+	align-items: center;
+}
+
+.zoom:hover{
+	-webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg); 
+    transition: all 0.3s;
+}
+
+.textogaleria{
+	padding-top: 10px;
+	padding-left: 13px;
+	padding-right: 10px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.borda{
+	background-color: #FFD700;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.contact .info{
+	padding: 30px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); 
+	border-radius: 15%;
+}
+
+.contact .info h4{
+	padding: 0 0 0 60px;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #FF8C00;
+	width: 100%;
+}
+#contato h2{
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #2F4F4F;
+}
+#contato > p{
+	margin-bottom: 20px; 
+	font-size: 1.2em;
+	color: #2F4F4F;
+	text-align: center;
+}
+#contato a{
+	text-decoration: none;
+	color:#8B0000;
+	font-family: font-family: "Dancing+Script","Satisfy", sans-serif;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color:#8B0000;
+	color:#F5FFFA;
+	padding-top: 24px;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+	#contato {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		max-height: 40vh;
+		width: 100%;
+	}
+	#contato h2,
+	#contato p{
+		width: 100%;
+		text-align: center;
+	}
 }
